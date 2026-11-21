@@ -1,0 +1,1627 @@
+{
+  "name": "NepalHomes MLS-style Residential Listing",
+  "source": "Residential Listing Input Form (11 pages); independent adaptation",
+  "network": "testnet",
+  "currency": "BSV",
+  "listingFeeSatoshis": 100000,
+  "sections": [
+    {
+      "name": "Property overview",
+      "fields": [
+        {
+          "id": "s0f0",
+          "label": "Type of Listing",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Normal / Regular Listing",
+            "Members Only — Show",
+            "Members Only — Do Not Show"
+          ],
+          "private": false
+        },
+        {
+          "id": "s0f1",
+          "label": "Property Type",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Single Family Home (Detached)",
+            "Single Family Home (Attached)",
+            "Condominium",
+            "Townhouse",
+            "Farm / Ranch",
+            "Floating Home",
+            "Other Residential"
+          ],
+          "private": false
+        },
+        {
+          "id": "s0f2",
+          "label": "Ownership Type",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Common Interest Development",
+            "Condominium Ownership",
+            "Cooperative Housing (CoOp)",
+            "Corporation",
+            "Corporation – Subchapter S",
+            "Individual",
+            "Planned Unit Development",
+            "Stock Cooperative",
+            "Tenants in Common",
+            "Trust"
+          ],
+          "private": false
+        },
+        {
+          "id": "s0f3",
+          "label": "Street Address",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f4",
+          "label": "Building Number",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f5",
+          "label": "APN",
+          "required": true,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s0f6",
+          "label": "Owner Name",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s0f7",
+          "label": "City",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f8",
+          "label": "State or Province",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f9",
+          "label": "Postal Code",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f10",
+          "label": "County",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f11",
+          "label": "MLS Area",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f12",
+          "label": "Model Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f13",
+          "label": "Beds",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f14",
+          "label": "Full Baths",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f15",
+          "label": "Partial Baths",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f16",
+          "label": "Living Space SqFt",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f17",
+          "label": "Additional Living Space Type",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f18",
+          "label": "Additional Living Space SqFt",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f19",
+          "label": "Stories",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f20",
+          "label": "Floors in Building",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f21",
+          "label": "Unit Floor",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f22",
+          "label": "Units in Building",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f23",
+          "label": "Property Faces",
+          "required": false,
+          "type": "select",
+          "options": [
+            "East",
+            "North",
+            "Northeast",
+            "Northwest",
+            "South",
+            "Southeast",
+            "Southwest",
+            "West"
+          ],
+          "private": false
+        },
+        {
+          "id": "s0f24",
+          "label": "Unit Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f25",
+          "label": "Year Built",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f26",
+          "label": "Zoning",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f27",
+          "label": "Lot SqFt",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f28",
+          "label": "Lot Acres",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f29",
+          "label": "Elementary School District",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f30",
+          "label": "Elementary School Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f31",
+          "label": "Middle School Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f32",
+          "label": "High School District",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f33",
+          "label": "High School Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f34",
+          "label": "Land Use",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f35",
+          "label": "Within City Limits",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f36",
+          "label": "In Incorporated Area",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s0f37",
+          "label": "Cross Street",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s0f38",
+          "label": "Directions",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Listing details",
+      "fields": [
+        {
+          "id": "s1f0",
+          "label": "Listing Status",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Active",
+            "Coming Soon",
+            "Comp Only"
+          ],
+          "private": false
+        },
+        {
+          "id": "s1f1",
+          "label": "Point of Sale Ordinance",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f2",
+          "label": "City Transfer Tax",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f3",
+          "label": "List Date",
+          "required": true,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s1f4",
+          "label": "List Price BSV",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f5",
+          "label": "Expiration Date",
+          "required": true,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s1f6",
+          "label": "Pre Market Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s1f7",
+          "label": "Pre Market Price BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f8",
+          "label": "Sale Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s1f9",
+          "label": "COE Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s1f10",
+          "label": "Close Sale Price BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f11",
+          "label": "Buyer Financing",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f12",
+          "label": "Sold Remarks",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s1f13",
+          "label": "Offers Received",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f14",
+          "label": "Possession Notice",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f15",
+          "label": "Acceptable Financing Terms",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f16",
+          "label": "Total Assumable Loans BSV",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f17",
+          "label": "Assumable Loan Rate",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f18",
+          "label": "Cash to Assume BSV",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f19",
+          "label": "Monthly Payment BSV",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f20",
+          "label": "Current Rent BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f21",
+          "label": "Special Listing Condition",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Auction",
+            "HUD Owned",
+            "Not Applicable",
+            "REO / Bank Owned Property",
+            "Court Confirmation May Be Required",
+            "New Subdivision",
+            "Notice of Default",
+            "Short Sale / Subject to Lender"
+          ],
+          "private": false
+        },
+        {
+          "id": "s1f22",
+          "label": "Fireplace",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s1f23",
+          "label": "Number of Fireplaces",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s1f24",
+          "label": "Fireplace Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s1f25",
+          "label": "Accessibility",
+          "required": false,
+          "type": "text",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Interior features",
+      "fields": [
+        {
+          "id": "s2f0",
+          "label": "Bathroom Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f1",
+          "label": "Bedroom Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f2",
+          "label": "Communications",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f3",
+          "label": "Cooling",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Ceiling Fan",
+            "Central AC",
+            "Evaporative Cooler",
+            "Multi-Zone",
+            "Whole House / Attic Fan",
+            "Window / Wall Unit",
+            "None",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s2f4",
+          "label": "Dining Room",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f5",
+          "label": "Family Room",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f6",
+          "label": "Flooring",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Carpet",
+            "Concrete",
+            "Granite",
+            "Hardwood",
+            "Laminate",
+            "Marble",
+            "Slate",
+            "Stone",
+            "Tile",
+            "Travertine",
+            "Unfinished",
+            "Vinyl / Linoleum",
+            "Wood",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s2f7",
+          "label": "Heating",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Baseboard",
+            "Central Forced Air",
+            "Central Forced Air – Gas",
+            "Electric",
+            "Fireplace",
+            "Forced Air",
+            "Gas",
+            "Heat Pump",
+            "Radiant",
+            "Solar",
+            "Space Heater",
+            "None",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s2f8",
+          "label": "Interior Amenities",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f9",
+          "label": "Kitchen",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Cooktop – Electric",
+            "Cooktop – Gas",
+            "Countertop – Granite",
+            "Countertop – Quartz",
+            "Dishwasher",
+            "Garbage Disposal",
+            "Island",
+            "Microwave",
+            "Oven – Gas",
+            "Oven – Electric",
+            "Pantry",
+            "Refrigerator",
+            "Wine Refrigerator",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s2f10",
+          "label": "Laundry",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f11",
+          "label": "Other Rooms",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s2f12",
+          "label": "Security",
+          "required": false,
+          "type": "text",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Exterior features",
+      "fields": [
+        {
+          "id": "s3f0",
+          "label": "Pool Present",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f1",
+          "label": "Pool Spa Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f2",
+          "label": "Horse Property",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No",
+            "Possible"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f3",
+          "label": "Horse Property Features",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f4",
+          "label": "Garage Spaces",
+          "required": true,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s3f5",
+          "label": "Carport Spaces",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s3f6",
+          "label": "Open Parking Spaces",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s3f7",
+          "label": "Parking",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Attached Garage",
+            "Detached Garage",
+            "Carport",
+            "Covered Parking",
+            "Guest / Visitor Parking",
+            "Off-Street Parking",
+            "On Street",
+            "No Garage",
+            "No Parking",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f8",
+          "label": "Utilities",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Natural Gas",
+            "Public Utilities",
+            "Generator",
+            "Solar Panels – Owned",
+            "Solar Panels – Leased",
+            "Wind",
+            "Propane on Site",
+            "None / No Utilities",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f9",
+          "label": "Electric Vehicle Hookup",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f10",
+          "label": "Water",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Public",
+            "Private / Mutual",
+            "Well",
+            "Well – Domestic",
+            "Water On Site",
+            "Water Available on Street",
+            "None",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f11",
+          "label": "Sewer",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Sewer – Public",
+            "Sewer – Private",
+            "Sewer Connected",
+            "Septic Connected",
+            "Existing Septic",
+            "Sewer Available",
+            "None",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f12",
+          "label": "Construction Type",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f13",
+          "label": "Energy Saving",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f14",
+          "label": "Exterior Amenities",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f15",
+          "label": "Fence",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f16",
+          "label": "Foundation",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Concrete Slab",
+            "Crawl Space",
+            "Concrete Perimeter",
+            "Post and Beam",
+            "Raised",
+            "Reinforced Concrete",
+            "Wood Frame",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f17",
+          "label": "Lot Description",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s3f18",
+          "label": "Other Structures",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f19",
+          "label": "Other Structure Size",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f20",
+          "label": "Other Structure Description",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s3f21",
+          "label": "Property Condition",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f22",
+          "label": "Roof",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Composition",
+            "Concrete",
+            "Metal",
+            "Shingle",
+            "Slate",
+            "Tile",
+            "Wood Shakes / Shingles",
+            "Other"
+          ],
+          "private": false
+        },
+        {
+          "id": "s3f23",
+          "label": "Soil Description",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s3f24",
+          "label": "Style",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s3f25",
+          "label": "View Description",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Community information",
+      "fields": [
+        {
+          "id": "s4f0",
+          "label": "Property in Community",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s4f1",
+          "label": "Community Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f2",
+          "label": "Units in Community",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f3",
+          "label": "Community Amenities",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f4",
+          "label": "Community Restrictions",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f5",
+          "label": "HOA Present",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s4f6",
+          "label": "HOA Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f7",
+          "label": "HOA Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s4f8",
+          "label": "HOA Fee BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f9",
+          "label": "HOA Fee Frequency",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Monthly",
+            "Quarterly",
+            "Semi-Annually",
+            "Annually"
+          ],
+          "private": false
+        },
+        {
+          "id": "s4f10",
+          "label": "HOA Fee Covers",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f11",
+          "label": "HOA Docs",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f12",
+          "label": "HOA Transfer Fee BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f13",
+          "label": "HOA Document Fee BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f14",
+          "label": "Builder Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f15",
+          "label": "Tract Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f16",
+          "label": "New Construction",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s4f17",
+          "label": "Construction Status",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s4f18",
+          "label": "Estimated Completion Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s4f19",
+          "label": "Price Range Low BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        },
+        {
+          "id": "s4f20",
+          "label": "Price Range High BSV",
+          "required": false,
+          "type": "number",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Marketing and photos",
+      "fields": [
+        {
+          "id": "s5f0",
+          "label": "Branded Virtual Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f1",
+          "label": "Unbranded Virtual Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f2",
+          "label": "Branded 3D Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f3",
+          "label": "Unbranded 3D Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f4",
+          "label": "Branded Drone Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f5",
+          "label": "Unbranded Drone Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f6",
+          "label": "Branded Additional Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f7",
+          "label": "Unbranded Additional Tour URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s5f8",
+          "label": "Public Remarks",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s5f9",
+          "label": "Post on Consumer Websites",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s5f10",
+          "label": "Allow VOW IDX AVM",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s5f11",
+          "label": "Allow VOW IDX Comments",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s5f12",
+          "label": "Public Listing Address Format",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Show Full Address",
+            "Show Street City Zip",
+            "Show City Zip Only"
+          ],
+          "private": false
+        },
+        {
+          "id": "s5f13",
+          "label": "Private Remarks",
+          "required": false,
+          "type": "textarea",
+          "private": true
+        }
+      ]
+    },
+    {
+      "name": "Agent and disclosures",
+      "fields": [
+        {
+          "id": "s6f0",
+          "label": "Listing Service",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Full Service",
+            "Limited Service",
+            "MLS Entry Only",
+            "Restricted"
+          ],
+          "private": false
+        },
+        {
+          "id": "s6f1",
+          "label": "Listing Type",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Exclusive Agency",
+            "Exclusive Right to Sell",
+            "Exclusive Right to Sell with Reservations",
+            "Open",
+            "Probate"
+          ],
+          "private": false
+        },
+        {
+          "id": "s6f2",
+          "label": "Hazard Disclosures",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s6f3",
+          "label": "Other Disclosures",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s6f4",
+          "label": "Disclosure URL",
+          "required": false,
+          "type": "url",
+          "private": false
+        },
+        {
+          "id": "s6f5",
+          "label": "Green Rated Home",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "private": false
+        },
+        {
+          "id": "s6f6",
+          "label": "TIC Agreement",
+          "required": false,
+          "type": "select",
+          "options": [
+            "Yes",
+            "No",
+            "Unknown"
+          ],
+          "private": false
+        },
+        {
+          "id": "s6f7",
+          "label": "Use Aligned Showings",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s6f8",
+          "label": "Occupied By",
+          "required": true,
+          "type": "select",
+          "options": [
+            "Call Agent",
+            "Manager",
+            "Owner",
+            "Tenant",
+            "Vacant"
+          ],
+          "private": true
+        },
+        {
+          "id": "s6f9",
+          "label": "Showing Contact Type",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s6f10",
+          "label": "Showing Contact Name",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s6f11",
+          "label": "Showing Contact Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s6f12",
+          "label": "Gate Code",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s6f13",
+          "label": "Showing Instructions",
+          "required": true,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s6f14",
+          "label": "Additional Showing Instructions",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        }
+      ]
+    },
+    {
+      "name": "Open house and contacts",
+      "fields": [
+        {
+          "id": "s7f0",
+          "label": "Open House Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s7f1",
+          "label": "Open House Start",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f2",
+          "label": "Open House End",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f3",
+          "label": "Open House Host",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f4",
+          "label": "Open House Remarks",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s7f5",
+          "label": "Property Tour Date",
+          "required": false,
+          "type": "date",
+          "private": false
+        },
+        {
+          "id": "s7f6",
+          "label": "Tour Sponsor",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f7",
+          "label": "Tour Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f8",
+          "label": "Property Tour Remarks",
+          "required": false,
+          "type": "textarea",
+          "private": false
+        },
+        {
+          "id": "s7f9",
+          "label": "Listing Agent Full Name",
+          "required": true,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f10",
+          "label": "Agent License",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f11",
+          "label": "Agent Phone",
+          "required": true,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f12",
+          "label": "Agent Email",
+          "required": true,
+          "type": "email",
+          "private": true
+        },
+        {
+          "id": "s7f13",
+          "label": "Listing Office Name",
+          "required": true,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f14",
+          "label": "Listing Office Code",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f15",
+          "label": "Office Phone",
+          "required": true,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f16",
+          "label": "Co Listing Agent Full Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f17",
+          "label": "Co Agent License",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f18",
+          "label": "Co Agent Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f19",
+          "label": "Co Agent Email",
+          "required": false,
+          "type": "email",
+          "private": true
+        },
+        {
+          "id": "s7f20",
+          "label": "Co Listing Office Name",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f21",
+          "label": "Co Listing Office Code",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f22",
+          "label": "Co List Office Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f23",
+          "label": "Selling Agent Full Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f24",
+          "label": "Selling Agent License",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f25",
+          "label": "Selling Agent Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f26",
+          "label": "Selling Agent Email",
+          "required": false,
+          "type": "email",
+          "private": true
+        },
+        {
+          "id": "s7f27",
+          "label": "Selling Office Name",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f28",
+          "label": "Selling Office Code",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f29",
+          "label": "Selling Office Phone",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f30",
+          "label": "Co Selling Agent Full Name",
+          "required": false,
+          "type": "text",
+          "private": false
+        },
+        {
+          "id": "s7f31",
+          "label": "Co Selling Agent Office Name",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f32",
+          "label": "Listing Agent Signature",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f33",
+          "label": "Seller Signature",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f34",
+          "label": "Broker Signature",
+          "required": false,
+          "type": "text",
+          "private": true
+        },
+        {
+          "id": "s7f35",
+          "label": "Signature Date",
+          "required": false,
+          "type": "date",
+          "private": true
+        }
+      ]
+    }
+  ]
+}
