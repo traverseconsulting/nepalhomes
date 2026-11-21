@@ -1,0 +1,5 @@
+{
+  "network": "testnet",
+  "feeSatoshis": 100000,
+  "receivingAddress": null
+}
